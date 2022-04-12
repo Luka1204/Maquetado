@@ -8,10 +8,10 @@ form{
     width:25%;
     margin: 0px auto;
 }
-h1{
+.title{
     font-family: "League Spartan", sans-serif;
 
-    color:blue;
+    color:rgb(20, 20, 199);
     font-weight: bold;
     text-align: center;
     padding: 10px;
