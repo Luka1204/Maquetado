@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+form{
+    width:25%;
+    margin: 0px auto;
+}
+h1{
+    font-family: "League Spartan", sans-serif;
+
+    color:blue;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin:20px;
+}

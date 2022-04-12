@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="description" content="Roughly 155 characters" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/88c9bdbb87.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Content -->
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <a href="" class="img-AP nav-link"
+            ><img src="img/APLogo-20-20.png" width="120px" height="80px"
+          /></a>
+         
+        </div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-menu-item">
+            <p class="logoP nav-link">#YoProgramo - Luka Reyes</p>
+          </li>
+          <li class="nav-menu-item">
+            <a href="index.html" class="nav-menu-link nav-link"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="" class="nav-menu-link nav-link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="" class="nav-menu-link nav-link"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="login.html" class="btn-login">Login</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="profile">
+        <div class="banner">
+          <img
+            src="img/geometric-shapes-background-hd-52650-308209.jpg"
+            width="100%"
+            height="450px"
+          />
+        </div>
+        <div class="image-profile">
+          <img src="img/profile.jpg" width="250px" height="250px" />
+        </div>
+        <div class="descripcion">
+          <h3>Luka Reyes</h3>
+          <h4>Longchamps</h4>
+        </div>
+      </section>
+    </header>
+    <div class="container">
+      <h2 class="sub-titulo">Acerca de mí</h2>
+      <p class="acerca-de">
+        Me llamo Luka, soy estudiante del ultimo año del secundario con orientacion técnica en programación.<br>
+        Tengo conocimientos Básicos en: C#,C++,SQL Server,Python.
+        Tengo conocimientos de nivel intermedio en: MySql ,JS, HTML, CSS, PHP, Laravel. 
+      </p>
+    </div>
+
+    <div class="container">
+      <h2 class="sub-titulo">Experiencia</h2>
+
+      <div class="sub-container">
+        <div class="card">
+          <div class="image-card">
+            <img src="img/descarga.png" width="100px" height="100px" />
+          </div>
+            <div class="descripcion-card">
+              <h3>Puesto</h3>
+              <p>Empresa - Jornada Parcial</p>
+              <ul>
+                <li><h4>2020 - ACT.</h4></li>
+                <li><h4>BS AS</h4></li>
+              </ul>
+            </div>
+          
+        </div>
+
+          <div class="card">
+          <div class="image-card">
+            <img src="img/descarga.png" width="100px" height="100px" />
+          </div>
+            <div class="descripcion-card">
+              <h3>Puesto</h3>
+              <p>Empresa - Jornada Parcial</p>
+              <ul>
+                <li><h4>2020 - ACT.</h4></li>
+                <li><h4>BS AS</h4></li>
+              </ul>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="sub-titulo">Educación</h2>
+      <div class="sub-container">
+        <div class="card">
+          <div class="image-card">
+            <img src="img/escuela.png" width="100px" height="100px" />
+          </div>
+            <div class="descripcion-card">
+            <h3>E.E.S.T N°2 DE TEMPERLEY</h3>
+              <ul>
+                <li><h3>Programación</h3></li>
+                <li><h4>2017 - 2022</h4></li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="image-card">
+            <img src="img/escuela.png" width="100px" height="100px" />
+          </div>
+            <div class="descripcion-card">
+            <h3>CURSO UDEMY</h3>
+              <ul>
+                <li><h3>Master en PHP, MYSQL, LARAVEL, POO, MVC</h3></li>
+                <li><h4>2021 - 2022</h4></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-skills">
+      <h2 class="sub-titulo">Hard & Soft Skills</h2>
+
+     
+        <div class="card">
+          <h2 class="card__title">Front-End</h2>
+  
+          <div class="it-skill">
+            <h3>HTML</h3>
+            <progress value= 80 max=100 id="barra" class="barraStyle"></progress>
+          </div>
+         
+          <div class="it-skill">
+            <h3>CSS</h3>
+            <progress value= 80 max=100 id="barra" class="barraStyle"></progress>
+          </div>
+  
+          <div class="it-skill">
+            <h3>JavaScript</h3>
+            <progress value= 80 max=100 id="barra" class="barraStyle"></progress>
+          </div>
+  
+          <div class="it-skill">
+            <h3>Bootstrap</h3>
+            <progress value= 80 max=100 id="barra" class="barraStyle"></progress>
+          </div>
+          </div>
+  
+          <div class="card">
+            <h2 class="card__title">Back-End</h2>
+    
+            <div class="it-skill">
+              <h3>PHP</h3>
+              <progress value= 80 max=100 id="barra" class="barraStyle"></progress>
+            </div>
+           
+            <div class="it-skill">
+              <h3>NodeJS</h3>
+              <progress value= 80 max=100 id="barra" class="barraStyle"></progress>
+            </div>
+    
+            <div class="it-skill">
+              <h3>MySql</h3>
+              <progress value= 80 max=100 id="barra" class="barraStyle"></progress>
+            </div>
+    
+            <div class="it-skill">
+              <h3>MongoDB</h3>
+              <progress value= 80 max=100 id="barra" class="barraStyle"></progress>
+            </div>
+            </div>
+      </div>
+     
+      </div>
+    
+
+    <div class="projects container">
+      <h2 class="sub-titulo">Proyectos</h2>
+          <div class="project-card card">
+            <div class="image-card-p">
+              <img src="img/snake.png" width="auto" height="" />
+            </div>
+            <div class="title-card">
+              <h4>Snake</h4>
+            </div>
+            <div class="description-project">
+              <p>Este proyecto lo realicé con JS, HTML Y CSS. 
+                Es el famoso juego del Snake o Viborita del nokia
+                En este se trabaja la progamacion funcional en JS y utilizo un canvas en HTML
+              </p>
+              <a href="https://github.com/Luka1204/Snake" class="btn-git">Ver en GitHub</a>
+            </div>
+          </div>
+          <div class="project-card card">
+            <div class="image-card-p">
+              <img src="img/ECOMMERCE.jpeg" width="318" height="159" />
+            </div>
+            <div class="title-card">
+              <h4>Tienda de ropa</h4>
+            </div>
+            <div class="description-project">
+              <p>Modelo de e-commerce de indumentaria.
+                Esta realizado con HTML, CSS, PHP Y MYSQL
+                Tambien trabaje con los fundamentos de la POO(Progrmación Orientada a Objetos)
+              </p>
+              <a href="https://github.com/Luka1204/e-Commerce" class="btn-git">Ver en GitHub</a>
+            </div>
+          </div> 
+          
+          <div class="project-card card">
+            <div class="image-card-p">
+              <img src="img/blog.jpeg" width="318" height="159" />
+            </div>
+            <div class="title-card">
+              <h4>Blog de Videojuegos</h4>
+            </div>
+            <div class="description-project">
+              <p>Modelo de blog virtual para publicar entradas de videojuegos.
+                Lo realice con HTML, CSS, PHP Y MYSQL, basandome en la Programación funcional                
+              </p>
+              <a href="https://github.com/Luka1204/Blog-VideojuegosPHP" class="btn-git">Ver en GitHub</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="js/nav.js"></script>
+  </body>
+  <footer>
+    <hr>
+    <h3>Desarollado por &copy; Luka Reyes</h3>
+  </footer>
+</html>
